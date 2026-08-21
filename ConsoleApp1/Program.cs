@@ -20,7 +20,7 @@ while (true)
     Console.Clear();
 }
 
-int kallenanka = 0;
+int kalleanka = 0;
 for (int i = 0; i < votes.Count; i++)
 {
     string vote = votes[i];
@@ -28,16 +28,14 @@ for (int i = 0; i < votes.Count; i++)
     {
         kalleanka++;
     }
+Console.WriteLine("Kalle Anka-partiet: " + kalleanka);
+
+Console.ReadLine();
 }
 
 int alltåtalla = 0;
 for (int i = 0; i < votes.Count; i++)
 {
     string vote = votes[i];
-    if (vote == "2")
+    if (vote == "2") ;
 }
-
-
-Console.WriteLine("Kalle Anka-partiet: " + kalleanka);
-
-Console.ReadLine();
