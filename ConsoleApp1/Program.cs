@@ -9,7 +9,6 @@ while (true)
     Console.WriteLine("5. NTI-partiet");
     Console.WriteLine("6. Cthulhu");
     string choice = Console.ReadLine();
-
     if (choice == "q")
     {
         break;
@@ -28,7 +27,7 @@ for (int i = 0; i < votes.Count; i++)
     {
         kalleanka++;
     }
-Console.WriteLine("Kalle Anka-partiet: " + kalleanka);
+Console.WriteLine("Kalle Anka-partiet" + kalleanka);
 
 Console.ReadLine();
 }
